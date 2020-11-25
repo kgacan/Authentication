@@ -14,10 +14,10 @@ namespace IdentityServer
                 new ApiResource("ApiOne"),
             };
 
-        public static IEnumerable<ApiScope> GetScopes() =>
-            new List<ApiScope> {
-                new ApiScope("ApiOne", "ApiOne")
-            };
+        //public static IEnumerable<ApiScope> GetScopes() =>
+        //    new List<ApiScope> {
+        //        new ApiScope("ApiOne", "ApiOne")
+        //    };
 
         public static IEnumerable<Client> GetClients() =>
             new List<Client>
